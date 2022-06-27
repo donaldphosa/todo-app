@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 4rem;
+  margin-top: 100px;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.tabs-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  
+}
+.tabs-btns button{
+  border: none;
+  outline: none;
+  padding: 15px 60px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  width: 50%;
+}
+.loginComp{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 25px;
+ 
+}
+.loginComp button, .login .button{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.scroll{
+  overflow: auto;
+  width: 100%;
+  height: 350px;
+  margin-top: 30px;
+
+}
+.tasks{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin: 0 10px;
+ 
+}
+.width{
+  width: 210px;
+}
+.button.btn{
+  width: unset;
+  padding: 15px 35px;
+  margin: 15px 5px;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: gray;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track{
+  background-color: gray;
+  margin: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #000;
+  margin: 10px;
+  border-radius: 4px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+h5{
+  margin-bottom: 3px;
+}
+.red,.blue,.green{
+  display: inline-block;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.noTasks{
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
